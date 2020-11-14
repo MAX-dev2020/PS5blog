@@ -1,0 +1,35 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+   background: rgb(202,202,218);
+background: linear-gradient(104deg, rgba(202,202,218,1) 0%, rgba(144,157,242,1) 75%); 
+text-align: justify;
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 17px 20px;
+  text-decoration: none; 
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:#171d6e;
+  color:#fff;
+  font-size: 150%;
+}
+
+.cont
+{
+  padding-top:90px;
+  padding-left:15px;
+  background-image:url("https://cdn.mos.cms.futurecdn.net/Ac4PYXDzCm9vKLF8AM4kDd.jpg");
+   font-family:"Century Gothic"
+}
